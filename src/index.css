@@ -1,7 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&family=Roboto+Slab:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&family=Roboto+Slab:wght@300&display=swap'); */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-pink-50
+  }
+}
 
+@layer components {
+  .my-input {
+    @apply  border rounded-2xl
+    p-2 mt-8 mb-4 mx-2 w-80 placeholder:italic
+    border-slate-400 bg-kenya placeholder-slate-500
+  }
+
+}
