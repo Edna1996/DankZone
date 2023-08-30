@@ -16,5 +16,8 @@
     p-2 mt-8 mb-4 mx-2 w-80 placeholder:italic
     border-slate-400 bg-kenya placeholder-slate-500
   }
+  .form {
+    @apply sm:max-w-screen-2xl justify-center max-h-screen
+  }
 
 }
